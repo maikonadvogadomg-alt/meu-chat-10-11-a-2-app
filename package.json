@@ -1,19 +1,19 @@
 {
   "name": "meu-chat",
-  "version": "1.0.0",
-  "description": "Meu-Chat",
+  "version": "1.1.0",
+  "description": "Meu-Chat (teste 11110112)",
   "author": "Maikon",
   "private": true,
   "main": "electron/main.cjs",
-  "portaDoPrograma": 7744,
+  "portaDoPrograma": 7919,
   "devDependencies": {
     "electron": "33.2.1",
     "electron-builder": "25.1.8"
   },
   "build": {
-    "appId": "com.maikonadvogadomgalt.meuchat.pc",
-    "productName": "Meu-Chat",
-    "executableName": "meu-chat",
+    "appId": "com.maikonadvogadomgalt.meuchat.nteste11110112.pc",
+    "productName": "Meu-Chat (teste 11110112)",
+    "executableName": "meu-chat-teste-11110112",
     "directories": {
       "output": "release"
     },
@@ -41,11 +41,11 @@
       "perMachine": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Meu-Chat",
-      "artifactName": "meu-chat-Instalar.exe"
+      "shortcutName": "Meu-Chat (teste 11110112)",
+      "artifactName": "meu-chat-teste-11110112-Instalar.exe"
     },
     "portable": {
-      "artifactName": "meu-chat-sem-instalar.exe"
+      "artifactName": "meu-chat-teste-11110112-sem-instalar.exe"
     }
   }
 }
